@@ -3,6 +3,7 @@
     <declare-styleable name="AsyncImageView">
 
         <attr name="minShortSideSize" format="dimension"/>
+        <attr name="cornerRadius" format="dimension"/>
 
         <attr name="shape">
             <flag name="square" value="0" />
