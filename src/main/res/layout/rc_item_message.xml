@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-                xmlns:app="http://schemas.android.com/apk/res-auto"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:padding="8dp"
-                android:background="@android:color/transparent"
-                android:orientation="vertical">
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/transparent"
+    android:orientation="vertical"
+    android:padding="8dp">
 
     <TextView
         android:id="@id/rc_time"
@@ -14,8 +14,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="6dp"
-        />
+        android:layout_marginBottom="6dp" />
 
     <io.rong.imkit.widget.AsyncImageView
         android:id="@id/rc_left"
@@ -24,9 +23,9 @@
         android:layout_below="@id/rc_time"
         android:layout_alignParentLeft="true"
         android:layout_marginRight="4dp"
-         app:shape="circle"
+         app:RCShape="circle"
         android:background="@android:color/transparent"
-        app:defDrawable="@drawable/rc_ic_def_msg_portrait"/>
+        app:RCDefDrawable="@drawable/rc_ic_def_msg_portrait"/>
 
     <io.rong.imkit.widget.AsyncImageView
         android:id="@id/rc_right"
@@ -35,9 +34,9 @@
         android:layout_below="@id/rc_time"
         android:layout_alignParentRight="true"
         android:layout_marginLeft="4dp"
-        app:shape="circle"
+        app:RCShape="circle"
         android:background="@android:color/transparent"
-        app:defDrawable="@drawable/rc_ic_def_msg_portrait"/>
+        app:RCDefDrawable="@drawable/rc_ic_def_msg_portrait"/>
 
 
     <TextView
