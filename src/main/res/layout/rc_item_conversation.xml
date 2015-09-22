@@ -45,7 +45,7 @@
         android:layout_centerVertical="true"
         android:layout_toLeftOf="@id/rc_item2"
         android:layout_toRightOf="@id/rc_item1"
-        
+        android:layout_marginRight="6dp"
         android:background="@android:color/transparent" />
 
     <FrameLayout
